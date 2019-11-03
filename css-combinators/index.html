@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Adjacent Sibling-->
+    <div>
+      <h2>Not applied</h2>
+      <p>CSS applied</p>
+      <h2>Not applied</h2>
+      <h3>Not applied</h3>
+      <p>Not applied</p>
+      <h2>Not applied</h2>
+      <p>CSS applied</p>
+    </div>
+    <!--General Sibling-->
+    <div>
+      <h2>Not applied</h2>
+      <p>CSS applied</p>
+      <h2>Not applied</h2>
+      <h3>Not applied</h3>
+      <p>CSS applied</p>
+    </div>
+    <!--Child Sibling-->
+    <div>
+      <div>Not applied</div>
+      <p>CSS applied</p>
+      <div>Not applied</div>
+      <article>
+        <p>Not applied</p>
+      </article>
+      <p>CSS applied</p>
+    </div>
+    <!--Descendant-->
+    <div>
+      <div>Not applied</div>
+      <p>CSS applied</p>
+      <div>Not applied</div>
+      <article>
+        <p>CSS applied</p>
+      </article>
+      <p>CSS applied</p>
+    </div>
+  </body>
+</html>

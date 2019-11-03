@@ -1,0 +1,28 @@
+/*Elements*/
+
+h1 {
+  color: red;
+}
+
+/*Classes*/
+
+.blog-post {
+  color: red;
+}
+
+/*Universal*/
+
+* {
+  color: red;
+}
+
+/*IDs*/
+
+#main-title {
+  color: red;
+}
+
+/*Attributes*/
+[disabled] {
+  color: red;
+}
